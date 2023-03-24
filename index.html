@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        <h2 id="heading"> Registration Form </h2>
+        <form action="backend.js">
+            <div class="gap">
+                <label for="name" class="label"> Name -: </label>
+                <input type="text" name="_name" class="textarea" id="name" placeholder="Enter your name">
+            </div>
+
+            <div class="gap">
+                <label for="email" class="label"> Email -: </label>
+                <input type="email" name="_email" class="textarea" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="gap">
+                <label for="contact" class="label"> Contact No. -: </label>
+                <input type="tel" name="_contact" class="textarea" id="contact" placeholder="Enter your number">
+            </div>
+
+            <div class="gap">
+                <label for="password" class="label"> Password -: </label>
+                <input type="password" name="_password" class="textarea" id="password" placeholder="Enter a password">
+            </div>
+
+            <div class="gap">
+                <label for="profession" class="label"> Expertise -: </label>
+
+                <div id="profession">
+                    <div class="options">
+                        <input type="radio" name="_profession" id="student">
+                        <label for="student"> FrontEnd Developer </label>
+                    </div>
+
+                    <div class="options">
+                        <input type="radio" name="_profession" id="teacher">
+                        <label for="teacher"> BackEnd Developer </label>
+                    </div>
+
+                    <div class="options">
+                        <input type="radio" name="_profession" id="developer">
+                        <label for="developer"> FullStack Developer </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gap">
+                <label for="experience" class="label"> Experience -: </label>
+                <div id="dropdown">
+                    <select name="exp" id="experience">
+                        <option value="exp1"> 0-2 years </option>
+                        <option value="exp2"> 2-5 years </option>
+                        <option value="exp3"> 5-8 years </option>
+                        <option value="exp4"> 8+ years </option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="gap">
+                <label for="date" class="label"> Date of birth -: </label>
+                <input type="date" name="_date" id="date" min="1980-01-01" max="2005-03-24">
+            </div>
+
+            <div class="gap">
+                <label for="address" class="label"> Address -: </label>
+                <textarea name="_address" id="address" class="textarea" cols="28" rows="2" placeholder="Enter your address"></textarea>
+            </div>
+
+            <div class="gap">
+                <label for="comments" class="label">
+                    Write about yourself -:
+                </label>
+                <textarea name="_comments" id="comments" class="textarea" cols="28" rows="4" placeholder="Describe yourself in brief"></textarea>
+            </div>
+
+            <div class="gap">
+                <input type="submit" value="Submit" class="button" id="button1">
+                <input type="reset" value="Reset" class="button" id="button2">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

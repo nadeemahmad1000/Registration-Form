@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro', 'Merriweather', 'Libre Baskerville', serif;
+}
+
+body {
+    width: 100%;
+    background-image: url('ocean.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content {
+    width: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid white;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: #21d190;
+    background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
+}
+
+#heading {
+    color: #FFFFF0;
+    font-size: 26px;
+    margin: 16px 0px;
+    letter-spacing: 0.5px;
+}
+
+.gap {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.label {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+}
+
+.textarea {
+    width: 250px;
+    padding: 2px 4px;
+    font-size: 16px;
+    border: 2px solid #F9F6EE;
+    border-radius: 4px;
+}
+
+.textarea:focus {
+    outline: none;
+    border: 2px solid #ffb1be;
+    border-radius: 4px;
+}
+
+#profession {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    color: #FFFFF0;
+    margin: 2px 44px;
+}
+
+#dropdown {
+    margin-right: 100px;
+}
+
+#date {
+    margin: 8px 80px 8px 0px;
+}
+
+.button {
+    margin: 40px 100px 20px 80px;
+    padding: 4px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+#button1 {
+    color: white;
+    background-color: #0071c5;
+    border: 2px solid #0071c5;
+}
+
+#button2 {
+    color: white;
+    background-color: #CC0000;
+    border: 2px solid #CC0000;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
