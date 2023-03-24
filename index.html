@@ -16,7 +16,7 @@
         <form action="backend.js">
             <div class="gap">
                 <label for="name" class="label"> Name -: </label>
-                <input type="text" name="_name" class="textarea" id="name" placeholder="Enter your name">
+                <input type="text" name="_name" class="textarea" id="name" placeholder="Enter your name" required>
             </div>
 
             <div class="gap">
@@ -26,12 +26,12 @@
 
             <div class="gap">
                 <label for="contact" class="label"> Contact No. -: </label>
-                <input type="tel" name="_contact" class="textarea" id="contact" placeholder="Enter your number">
+                <input type="tel" name="_contact" class="textarea" id="contact" placeholder="Enter your number" required>
             </div>
 
             <div class="gap">
                 <label for="password" class="label"> Password -: </label>
-                <input type="password" name="_password" class="textarea" id="password" placeholder="Enter a password">
+                <input type="password" name="_password" class="textarea" id="password" placeholder="Enter a password" required>
             </div>
 
             <div class="gap">
@@ -39,17 +39,17 @@
 
                 <div id="profession">
                     <div class="options">
-                        <input type="radio" name="_profession" id="student">
+                        <input type="radio" name="_profession" id="student" required>
                         <label for="student"> FrontEnd Developer </label>
                     </div>
 
                     <div class="options">
-                        <input type="radio" name="_profession" id="teacher">
+                        <input type="radio" name="_profession" id="teacher" required>
                         <label for="teacher"> BackEnd Developer </label>
                     </div>
 
                     <div class="options">
-                        <input type="radio" name="_profession" id="developer">
+                        <input type="radio" name="_profession" id="developer" required>
                         <label for="developer"> FullStack Developer </label>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
 
             <div class="gap">
                 <label for="date" class="label"> Date of birth -: </label>
-                <input type="date" name="_date" id="date" min="1980-01-01" max="2005-03-24">
+                <input type="date" name="_date" id="date" min="1980-01-01" max="2005-03-24" required>
             </div>
 
             <div class="gap">
